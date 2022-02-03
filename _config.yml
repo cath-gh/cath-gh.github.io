@@ -1,11 +1,11 @@
-title: Hexo
+title: Cath
 subtitle: ''
-description: ''
+description: '记录与分享'
 keywords: null
-author: John Doe
-language: en
-timezone: ''
-url: http://example.com
+author: Cath
+language: zh-CN
+timezone: 'Asia/Shanghai'
+url: https://cath-gh.github.io/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
