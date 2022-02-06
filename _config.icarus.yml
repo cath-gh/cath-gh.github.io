@@ -3,11 +3,11 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/favicon_c.svg
+logo: https://s2.loli.net/2022/02/05/jVEuHA89n2wcriL.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon_c.svg
+    favicon: https://s2.loli.net/2022/02/05/qeN5ChSvRUJiWau.png
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -142,7 +142,7 @@ article:
     # Whether to show estimated article reading time
     readtime: true
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-    update_time: true
+    update_time: false
     # Article licensing block
     licenses:
         Creative Commons:
@@ -205,9 +205,9 @@ donates:
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
-    # URL to the ShareThis share plugin script
-    install_url: ''
+    type: sharejs
+    # # URL to the ShareThis share plugin script
+    # install_url: ''
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -234,9 +234,9 @@ widgets:
         # Author's current location
         location: China
         # URL or path to the avatar image
-        avatar: 
+        avatar: img/shevchenko.jpg
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
@@ -246,6 +246,9 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/ppoffice
+            Douban:
+                icon: fas fa-desktop
+                url: https://www.douban.com/people/2896809/
             # Facebook:
             #     icon: fab fa-facebook
             #     url: https://facebook.com
@@ -277,7 +280,7 @@ widgets:
         # Names and URLs of the sites
         links:
             Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            Icarus: https://github.com/ppoffice/hexo-theme-icarus
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -298,15 +301,15 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
-    # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
+    # # Google FeedBurner email subscription widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: subscribe_email
+    #     # Hint text under the email input
+    #     description: 
+    #     # Feedburner ID
+    #     feedburner_id: ''
     # Google AdSense unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -316,17 +319,17 @@ widgets:
         client_id: 'ca-pub-4926244507819822'
         # AdSense AD unit ID
         slot_id: '7727588846'
-    # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: ''
-        # Feed claiming verification code
-        verification_code: ''
+    # # Follow.it email subscription widget configurations
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: left
+    #     type: followit
+    #     # Hint text under the email input
+    #     description: 
+    #     # Subscription form action URL
+    #     action_url: ''
+    #     # Feed claiming verification code
+    #     verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
