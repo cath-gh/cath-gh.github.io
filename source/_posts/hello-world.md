@@ -1,8 +1,8 @@
 ---
 title: Hello Cath
 date: 2022-02-02 12:12:12
-cover: https://s2.loli.net/2022/02/20/OswUHYaBJCQz4qe.jpg
-thumbnail: https://s2.loli.net/2022/02/20/OswUHYaBJCQz4qe.jpg
+cover: https://s2.loli.net/2022/02/26/YyeCblXBNd13svM.jpg
+thumbnail: https://s2.loli.net/2022/02/26/YyeCblXBNd13svM.jpg
 categories: 
 - 文档
 tags: 
