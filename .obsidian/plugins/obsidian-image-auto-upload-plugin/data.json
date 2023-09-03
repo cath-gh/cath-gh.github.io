@@ -1,0 +1,39 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo",
+  "uploadServer": "http://127.0.0.1:36677/upload",
+  "deleteServer": "http://127.0.0.1:36677/delete",
+  "imageSizeSuffix": "|",
+  "picgoCorePath": "",
+  "workOnNetWork": false,
+  "fixPath": false,
+  "applyImage": true,
+  "newWorkBlackDomains": "",
+  "deleteSource": false,
+  "imageDesc": "origin",
+  "uploadedImages": [
+    {
+      "fileName": "白马篇.jpg",
+      "width": 580,
+      "height": 323,
+      "extname": ".jpg",
+      "imgUrl": "https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/%E7%99%BD%E9%A9%AC%E7%AF%87.jpg",
+      "hash": "ec74ab6d1c1992e94c24b5515cafe0f2021c2eba",
+      "type": "github",
+      "config": {
+        "_configName": "gh-pictures",
+        "repo": "cath-gh/pictures",
+        "branch": "main",
+        "token": "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",
+        "customUrl": "https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/",
+        "_id": "87fdabba-ae70-4f87-b83d-104ff9038035",
+        "_createdAt": 1692686268757,
+        "_updatedAt": 1693722356128,
+        "path": "Obsidian/cath-gh.github.io/"
+      },
+      "id": "01e11f80-2fd1-4d02-92bb-a0bed3934b9c",
+      "createdAt": 1693722981181,
+      "updatedAt": 1693722981181
+    }
+  ]
+}

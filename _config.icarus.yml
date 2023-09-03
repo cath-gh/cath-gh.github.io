@@ -1,8 +1,8 @@
 version: 5.1.0
 variant: default
-logo: https://s2.loli.net/2022/02/05/jVEuHA89n2wcriL.png
+logo: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/logo_c.webp
 head:
-    favicon: https://s2.loli.net/2022/02/05/qeN5ChSvRUJiWau.png
+    favicon: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/favicon_c.webp
     manifest:
         name: 
         short_name: 
@@ -101,7 +101,7 @@ widgets:
         author: Cath
         author_title: 且放白鹿青崖间
         location: China
-        avatar: https://s2.loli.net/2022/02/05/OaNXfupSei2tlTI.jpg
+        avatar: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/shevchenko.webp
         avatar_rounded: true
         gravatar: 
         follow_link: https://github.com/cath-gh

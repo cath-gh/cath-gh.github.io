@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/走弯路也是前进的一种方式.md",
+                "file": "source/static/site.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/走弯路也是前进的一种方式.md",
+                "file": "source/static/site.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/走弯路也是前进的一种方式.md",
+                "file": "source/static/site.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/走弯路也是前进的一种方式.md"
+                "file": "source/static/site.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -156,6 +156,30 @@
   },
   "active": "88820650542eef9b",
   "lastOpenFiles": [
-    "source/_posts/走弯路也是前进的一种方式.md"
+    "db.json",
+    "public/static/爆裂鼓手.jpg",
+    "public/static/海龟交易法则.png",
+    "public/static/魔戒三部曲.png",
+    "public/static/奇葩说.jpg",
+    "public/static/回来了.png",
+    "public/static/建站.jpg",
+    "public/static/pipenv_jupyter_8.png",
+    "public/static/markdown.png",
+    "public/static/pipenv_jupyter_1.png",
+    "public/js/column.js",
+    "public/js/main.js",
+    "public/static/车水马龙.jpg",
+    "public/2022/10/一个字，过瘾/index.html",
+    "public/2022/10/一个字，过瘾",
+    "public/2022/10",
+    "public/2022/02/怀念那些有空鼓捣的日子/index.html",
+    "public/2022/02/Markdown 参考文档/index.html",
+    "public/2022/02/hello-world/index.html",
+    "public/2022/02/怀念那些有空鼓捣的日子",
+    "public/2022/02/Markdown 参考文档",
+    "source/static/site.md",
+    "source/_posts/走弯路也是前进的一种方式.md",
+    "source/_posts/一个字，过瘾.md",
+    "README.md"
   ]
 }
