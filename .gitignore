@@ -6,4 +6,4 @@ node_modules/
 public/
 .deploy*/
 .github/dependabot.yml
-source/static
+static/
