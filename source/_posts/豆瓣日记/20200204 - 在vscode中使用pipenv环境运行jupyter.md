@@ -1,15 +1,16 @@
 ---
 title: 在vscode中使用pipenv环境运行jupyter
 date: 2020-02-04 10:30:53
-cover: https://s2.loli.net/2022/03/27/OF6YQM9Z3lWpGPC.png
-thumbnail: https://s2.loli.net/2022/03/27/OF6YQM9Z3lWpGPC.png
+urlname: run-jupyter-using-the-pipenv-environment-in-vscode
+cover: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/jupyter.webp
+thumbnail: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/jupyter.webp
 categories:
-- [旧文]
-- [记录]
+  - - 旧文
+  - - 记录
 tags:
-- 豆瓣日记
-- vscode
-- jupyter
+  - 豆瓣日记
+  - vscode
+  - jupyter
 ---
 每次配置都要重新搜索一遍，这回记录一下配置过程。
 
@@ -24,13 +25,15 @@ __先激活Pipenv环境__
 
 `pipenv shell`
 
-![pipenv_jupyter_1.png](https://s2.loli.net/2022/03/27/KJ3vWA6Ca7VEolm.png)
+![pipenv_jupyter_1.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_1.webp)
+
 
 __获取当前虚拟环境的位置__ 
 
 `pipenv --venv` 
 
-![pipenv_jupyter_2.png](https://s2.loli.net/2022/03/27/Qx6d82pSq9XZefT.png)
+![pipenv_jupyter_2.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_2.webp)
+
 
 ### 2. 打开setting.json配置文件
 + `Ctrl+Shift+P`，输入`settings`，选择`Open Settings(JSON)`
@@ -38,42 +41,48 @@ __获取当前虚拟环境的位置__
 `"python.venvPath": "C:\\Users\\Administrator\\.virtualenvs\\test_pipenv_jupyter-yZGS62vC"`
 + 如果存在多个虚拟环境，用逗号分隔
 
-![pipenv_jupyter_3.png](https://s2.loli.net/2022/03/27/XtqK85pEHel9cFr.png)
+![pipenv_jupyter_3.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_3.webp)
+
 
 ### 3. 重启vscode
 __选择对应环境__
 
-![pipenv_jupyter_4.png](https://s2.loli.net/2022/03/27/5OAEJG8RUu7tfIB.png)
+![pipenv_jupyter_4.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_4.webp)
+
 
 ### 4. 安装ipykernel
 __替换pipenv源为清华源，编辑pipfile文件的url字段__
 
-![pipenv_jupyter_5.png](https://s2.loli.net/2022/03/27/WJwevPm4MXp3bn1.png)
+![pipenv_jupyter_5.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_5.webp)
+
 
 国内其他源地址
 
-+ 阿里云：http://mirrors.aliyun.com/pypi/simple/
++ 阿里云：[http://mirrors.aliyun.com/pypi/simple/](http://mirrors.aliyun.com/pypi/simple/)
 
-+ 豆瓣：http://pypi.douban.com/simple/
++ 豆瓣：[http://pypi.douban.com/simple/](http://pypi.douban.com/simple/)
 
-+ 清华大学：https://pypi.tuna.tsinghua.edu.cn/simple/
++ 清华大学：[https://pypi.tuna.tsinghua.edu.cn/simple/](https://pypi.tuna.tsinghua.edu.cn/simple/)
 
-+ 中国科学技术大学：https://pypi.mirrors.ustc.edu.cn/simple/
++ 中国科学技术大学：[https://pypi.mirrors.ustc.edu.cn/simple/](https://pypi.mirrors.ustc.edu.cn/simple/)
 
 __启动pipenv环境，安装ipykernel__
 
 `pipenv install ipykernel`
 
-![pipenv_jupyter_6.png](https://s2.loli.net/2022/03/27/nl6AB3zw5omHWPL.png)
+![pipenv_jupyter_6.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_6.webp)
+
 
 ### 5. 测试jupyter文件
 打开一个新建的.ipynb文件会自动切换成下图显示效果，右上角提示环境尚未启动。
 
-![pipenv_jupyter_7.png](https://s2.loli.net/2022/03/27/NUPQnpXcj5mqkw3.png)
+![pipenv_jupyter_7.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_7.webp)
+
 
 查看一下sys.path，可以发现引用环境已经挂载到了虚拟环境，右上角也提示了之前选择的环境名称。
 
-![pipenv_jupyter_8.png](https://s2.loli.net/2022/03/27/MfzSd8pUTHnFXgy.png)
+![pipenv_jupyter_8.png](https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/pipenv_jupyter_8.webp)
+
 
 ### 6. 最后
 截止到当前版本，pywin32(v225 ~ v227)的坑已经被填平了，直接按照上述步骤配置即可正常使用。
