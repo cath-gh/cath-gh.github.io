@@ -1,0 +1,39 @@
+{
+  "uploadByClipSwitch": true,
+  "uploader": "PicGo",
+  "uploadServer": "http://127.0.0.1:36677/upload?picbed=github&configName=cath-gh.github.io",
+  "deleteServer": "http://127.0.0.1:36677/delete?picbed=github&configName=cath-gh.github.io",
+  "imageSizeSuffix": "",
+  "picgoCorePath": "",
+  "workOnNetWork": false,
+  "fixPath": false,
+  "applyImage": true,
+  "newWorkBlackDomains": "",
+  "deleteSource": false,
+  "imageDesc": "origin",
+  "uploadedImages": [
+    {
+      "fileName": "死亡实验.webp",
+      "width": 848,
+      "height": 972,
+      "extname": ".webp",
+      "imgUrl": "https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E6%AD%BB%E4%BA%A1%E5%AE%9E%E9%AA%8C.webp",
+      "hash": "a9c1380d3f1ccf9c5399210db456c25d4f170846",
+      "type": "github",
+      "config": {
+        "_configName": "cath-gh.github.io",
+        "repo": "cath-gh/pictures",
+        "branch": "main",
+        "token": "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",
+        "customUrl": "https://cdn.jsdelivr.net/gh/cath-gh/pictures@main",
+        "_id": "87fdabba-ae70-4f87-b83d-104ff9038035",
+        "_createdAt": 1692686268757,
+        "_updatedAt": 1694153878816,
+        "path": "Obsidian/cath-gh.github.io/"
+      },
+      "id": "2eab260c-fb85-4e3e-a0c9-0346c6768708",
+      "createdAt": 1694319972881,
+      "updatedAt": 1694319972881
+    }
+  ]
+}

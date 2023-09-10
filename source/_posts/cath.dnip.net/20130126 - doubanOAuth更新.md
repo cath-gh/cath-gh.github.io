@@ -1,16 +1,17 @@
 ---
 title: doubanOAuth更新
 date: 2013-01-26 17:30:00
-cover: https://s2.loli.net/2022/02/26/2pr5btu9mi1kvQn.jpg
-thumbnail: https://s2.loli.net/2022/02/26/2pr5btu9mi1kvQn.jpg
+urlname: doubanOAuth-update
+cover: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/douban.webp
+thumbnail: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/douban.webp
 categories:
-- [旧文]
-- [代码]
+  - - 旧文
+  - - 代码
 tags:
-- 豆瓣
-- C#
-- doubanOAuth
-- cath.dnip.net
+  - 豆瓣
+  - C#
+  - doubanOAuth
+  - cath.dnip.net
 ---
 ### 原文
 源码：[https://github.com/cath-gh/doubanOAuth](https://github.com/cath-gh/doubanOAuth)

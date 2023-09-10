@@ -1,16 +1,17 @@
 ---
 title: 豆瓣SDK doubanOAuth
 date: 2013-01-20 13:53:00
-cover: https://s2.loli.net/2022/02/26/2pr5btu9mi1kvQn.jpg
-thumbnail: https://s2.loli.net/2022/02/26/2pr5btu9mi1kvQn.jpg
+urlname: douban-sdk-doubanOAuth
+cover: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/douban.webp
+thumbnail: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/douban.webp
 categories:
-- [旧文]
-- [代码]
+  - - 旧文
+  - - 代码
 tags:
-- 豆瓣
-- C#
-- doubanOAuth
-- cath.dnip.net
+  - 豆瓣
+  - C#
+  - doubanOAuth
+  - cath.dnip.net
 ---
 ### 原文
 基于豆瓣API V2提供的接口，使用C#做了下简单的封装。实现了全部已知的方法，大部分已调通，个别实现还存在一些问题。
