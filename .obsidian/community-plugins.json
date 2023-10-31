@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-minimal-settings",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "templater-obsidian",
+  "OA-file-hider"
 ]

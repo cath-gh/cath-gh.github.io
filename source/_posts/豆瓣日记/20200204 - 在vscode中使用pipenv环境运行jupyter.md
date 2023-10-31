@@ -5,12 +5,12 @@ urlname: run-jupyter-using-the-pipenv-environment-in-vscode
 cover: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/jupyter.webp
 thumbnail: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/jupyter.webp
 categories:
-  - - 旧文
-  - - 记录
+  - [旧文]
+  - [记录]
+  - [IT]
 tags:
   - 豆瓣日记
   - vscode
-  - jupyter
 ---
 每次配置都要重新搜索一遍，这回记录一下配置过程。
 

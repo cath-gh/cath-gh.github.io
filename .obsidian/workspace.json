@@ -10,16 +10,43 @@
           {
             "id": "9dba49d416656dbb",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "static/post.md",
                 "mode": "source",
                 "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f3818dc77d0c8b62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7067db4d9cd68c4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/豆瓣日记/20200314 - 《费马大定理》书摘记录.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/post.md",
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/post.md",
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/post.md"
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md"
               }
             }
           },
@@ -147,8 +174,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,16 +182,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "4056d4e8ce7cd814",
+  "active": "f3818dc77d0c8b62",
   "lastOpenFiles": [
+    "source/_posts/豆瓣日记/20200314 - 《费马大定理》书摘记录.md",
+    "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
+    "source/_posts/豆瓣日记/20200311 - 《海龟交易法则》书摘记录.md",
+    "static/post.md",
+    "2023-10-29.md",
+    "source/_posts/gh/20220925 - 走弯路也是前进的一种方式.md",
+    "source/_posts/gh/20221022 - 一个字，过瘾.md",
+    "source/_posts/gh/20220220 - Markdown 参考文档.md",
+    "source/_posts/gh/20220204 - 怀念那些有空鼓捣的日子.md",
+    "source/_posts/gh/20220202 - hello-world.md",
+    "source/_posts/豆瓣日记/20200121 - 旬回豆瓣.md",
+    "source/_posts/豆瓣日记/20200126 - 看书时我们到底在看什么.md",
+    "source/_posts/豆瓣日记/20200204 - 在vscode中使用pipenv环境运行jupyter.md",
+    "source/_posts/豆瓣日记/20200220 - 从《希特勒回来了》想到的.md",
+    "source/_posts/豆瓣日记/20200224 - 关于豆瓣评分.md",
+    "source/_posts/豆瓣日记/20200225 - 《人生有何意义》书摘记录.md",
+    "source/_posts/豆瓣日记/20200314 - 写在重刷魔戒三部曲之后.md",
+    "source/_posts/cath.dnip.net/20130126 - doubanOAuth更新.md",
+    "source/_posts/cath.dnip.net/20130120 - 豆瓣SDK doubanOauth.md",
+    "source/_posts/cath.dnip.net/20130119 - 对于豆瓣API的一些看法.md",
+    "source/_posts/cath.dnip.net/20121217 - 梦魇.md",
+    "source/_posts/cath.dnip.net/20121217 - 不要劝人向恶.md",
+    "source/_posts/cath.dnip.net/20121217 - 123.md",
+    "source/_posts/cath.dnip.net/20121215 - 免费建立一个自己的小站有多难.md",
+    "source/_posts/sina/20170603 - 怎么看待这世界.md",
+    "source/_posts/sina/20160121 - 《黑镜》第二季-21世纪的哲学系寓言小故事.md",
+    "static/post/20231029 - 《过得刚好》书摘记录/《人物》独家对话郭德纲.webp",
+    "static/post/20231029 - 《过得刚好》书摘记录/v2-5f4ef45188bc36a73c1d69051abf56e2_720w.webp.crdownload",
+    "static/post/20231029 - 《过得刚好》书摘记录",
+    "public/archives/page/2/index.html",
     "public/page/2/index.html",
     "public/categories/随笔/index.html",
     "public/categories/旧文/index.html",
@@ -178,39 +235,9 @@
     "public/img/og_image.png",
     "public/img/razor-top-black.svg",
     "public/archives/page/3/index.html",
-    "public/archives/page/3",
-    "public/tags/豆瓣/index.html",
-    "public/tags/豆瓣",
-    "public/tags/记录/index.html",
     "public/img/avatar.png",
-    "source/_posts/gh/20221022 - 一个字，过瘾.md",
-    "static/post.md",
-    "source/_posts/gh/20220925 - 走弯路也是前进的一种方式.md",
-    "source/_posts/gh/20220220 - Markdown 参考文档.md",
-    "source/_posts/gh/20220204 - 怀念那些有空鼓捣的日子.md",
-    "source/_posts/gh/20220202 - hello-world.md",
-    "source/_posts/sina/20170603 - 怎么看待这世界.md",
-    "source/_posts/sina/20160121 - 《黑镜》第二季-21世纪的哲学系寓言小故事.md",
-    "source/_posts/sina/20141231 - 又到一年告别时.md",
-    "source/_posts/sina/20140508 - 还有多少未竟的事业.md",
-    "source/_posts/豆瓣日记/20200314 - 写在重刷魔戒三部曲之后.md",
-    "source/_posts/豆瓣日记/20200314 - 《费马大定理》书摘记录.md",
-    "source/_posts/豆瓣日记/20200311 - 《海龟交易法则》书摘记录.md",
-    "source/_posts/豆瓣日记/20200225 - 《人生有何意义》书摘记录.md",
-    "source/_posts/豆瓣日记/20200224 - 关于豆瓣评分.md",
-    "source/_posts/豆瓣日记/20200220 - 从《希特勒回来了》想到的.md",
-    "source/_posts/豆瓣日记/20200204 - 在vscode中使用pipenv环境运行jupyter.md",
-    "source/_posts/豆瓣日记/20200126 - 看书时我们到底在看什么.md",
     "static/post/20200220 - 从《希特勒回来了》想到的/回来了.png",
     "static/post/20200314 - 写在重刷魔戒三部曲之后/魔戒三部曲.webp",
-    "source/_posts/豆瓣日记/20200121 - 旬回豆瓣.md",
-    "static/post/20200204 - 在vscode中使用pipenv环境运行jupyter/pipenv_jupyter_8.png",
-    "static/post/20200204 - 在vscode中使用pipenv环境运行jupyter/pipenv_jupyter_7.png",
-    "source/_posts/cath.dnip.net/20130126 - doubanOAuth更新.md",
-    "source/_posts/cath.dnip.net/20121217 - 梦魇.md",
-    "source/_posts/cath.dnip.net/20121215 - 免费建立一个自己的小站有多难.md",
-    "source/_posts/cath.dnip.net/20130119 - 对于豆瓣API的一些看法.md",
-    "source/_posts/cath.dnip.net/20130120 - 豆瓣SDK doubanOauth.md",
-    "source/_posts/cath.dnip.net/20121217 - 不要劝人向恶.md"
+    "static/post/20200204 - 在vscode中使用pipenv环境运行jupyter/pipenv_jupyter_8.png"
   ]
 }

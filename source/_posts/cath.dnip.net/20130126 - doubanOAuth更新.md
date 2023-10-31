@@ -5,11 +5,10 @@ urlname: doubanOAuth-update
 cover: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/douban.webp
 thumbnail: https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/douban.webp
 categories:
-  - - 旧文
-  - - 代码
+  - [旧文]
+  - [IT]
 tags:
   - 豆瓣
-  - C#
   - doubanOAuth
   - cath.dnip.net
 ---
