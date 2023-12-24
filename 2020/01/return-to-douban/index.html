@@ -1,5 +1,96 @@
 <!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>旬回豆瓣 - Cath</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Cath"><meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/favicon_c.webp"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Cath"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="回归豆瓣 其实从来也没有类开过豆瓣，从最初注册的2008年算起恰好一旬，当我想要开始写文字的时候最先想到的，还是豆瓣。对这里的感情一直在变化，出于记录个人读书观影听音乐点滴的目的，我非常幸运和感谢有这么一个持续十余年运营的地方。豆瓣几经改版，产品线也有过很多尝试，对阿尔法城的期待和最后下线时的怀念，对豆瓣api的希望、自己写出了C#版本的接口却不得不面对没有官方人员再去维护的api的事实，对豆瓣评"><meta property="og:type" content="blog"><meta property="og:title" content="旬回豆瓣"><meta property="og:url" content="https://cath-gh.github.io/2020/01/return-to-douban/"><meta property="og:site_name" content="Cath"><meta property="og:description" content="回归豆瓣 其实从来也没有类开过豆瓣，从最初注册的2008年算起恰好一旬，当我想要开始写文字的时候最先想到的，还是豆瓣。对这里的感情一直在变化，出于记录个人读书观影听音乐点滴的目的，我非常幸运和感谢有这么一个持续十余年运营的地方。豆瓣几经改版，产品线也有过很多尝试，对阿尔法城的期待和最后下线时的怀念，对豆瓣api的希望、自己写出了C#版本的接口却不得不面对没有官方人员再去维护的api的事实，对豆瓣评"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E5%A5%87%E8%91%A9%E8%AF%B4.webp"><meta property="article:published_time" content="2020-01-21T04:34:35.000Z"><meta property="article:modified_time" content="2023-12-23T11:56:09.066Z"><meta property="article:author" content="Cath"><meta property="article:tag" content="豆瓣"><meta property="article:tag" content="豆瓣日记"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E5%A5%87%E8%91%A9%E8%AF%B4.webp"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://cath-gh.github.io/2020/01/return-to-douban/"},"headline":"旬回豆瓣","image":["https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E5%A5%87%E8%91%A9%E8%AF%B4.webp"],"datePublished":"2020-01-21T04:34:35.000Z","dateModified":"2023-12-23T11:56:09.066Z","author":{"@type":"Person","name":"Cath"},"publisher":{"@type":"Organization","name":"Cath","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/logo_c.webp"}},"description":"回归豆瓣 其实从来也没有类开过豆瓣，从最初注册的2008年算起恰好一旬，当我想要开始写文字的时候最先想到的，还是豆瓣。对这里的感情一直在变化，出于记录个人读书观影听音乐点滴的目的，我非常幸运和感谢有这么一个持续十余年运营的地方。豆瓣几经改版，产品线也有过很多尝试，对阿尔法城的期待和最后下线时的怀念，对豆瓣api的希望、自己写出了C#版本的接口却不得不面对没有官方人员再去维护的api的事实，对豆瓣评"}</script><link rel="canonical" href="https://cath-gh.github.io/2020/01/return-to-douban/"><link rel="icon" href="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/favicon_c.webp"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script>var _hmt = _hmt || [];
+<html lang="zh"><head><!-- hexo injector head_begin start --><style type="text/css">.douban-card-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+}
+
+.douban-card {
+    display: flex;
+    margin: 30px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.douban-card:hover {
+    text-decoration: none;
+}
+
+.douban-card-bgimg {
+    position: absolute;
+    width: 115%;
+    height: 115%;
+    filter: blur(15px) brightness(0.6);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-img {
+    position: relative;
+    height: 130px;
+    width: 80px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.douban-card-left:hover .douban-card-img {
+    filter: blur(5px) brightness(0.6);
+    transform: perspective(800px) rotateX(180deg);
+}
+
+.douban-card-left .douban-card-img {
+    transition: all 500ms ease;
+}
+
+.douban-card-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.douban-card-left .douban-card-status {
+    height: 130px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: rotateX(180deg);
+    backface-visibility: hidden;
+    transition: all 500ms ease;
+}
+
+.douban-card-left:hover .douban-card-status {
+    transform: perspective(800px) rotateX(0deg);
+}
+
+.douban-card-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.3;
+    color: antiquewhite;
+}
+
+.douban-card-item {
+    margin-top: 4px;
+}
+</style><!-- hexo injector head_begin end --><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>旬回豆瓣 - Cath</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Cath"><meta name="msapplication-TileImage" content="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/favicon_c.webp"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Cath"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="回归豆瓣 其实从来也没有类开过豆瓣，从最初注册的2008年算起恰好一旬，当我想要开始写文字的时候最先想到的，还是豆瓣。对这里的感情一直在变化，出于记录个人读书观影听音乐点滴的目的，我非常幸运和感谢有这么一个持续十余年运营的地方。豆瓣几经改版，产品线也有过很多尝试，对阿尔法城的期待和最后下线时的怀念，对豆瓣api的希望、自己写出了C#版本的接口却不得不面对没有官方人员再去维护的api的事实，对豆瓣评"><meta property="og:type" content="blog"><meta property="og:title" content="旬回豆瓣"><meta property="og:url" content="https://cath-gh.github.io/2020/01/return-to-douban/"><meta property="og:site_name" content="Cath"><meta property="og:description" content="回归豆瓣 其实从来也没有类开过豆瓣，从最初注册的2008年算起恰好一旬，当我想要开始写文字的时候最先想到的，还是豆瓣。对这里的感情一直在变化，出于记录个人读书观影听音乐点滴的目的，我非常幸运和感谢有这么一个持续十余年运营的地方。豆瓣几经改版，产品线也有过很多尝试，对阿尔法城的期待和最后下线时的怀念，对豆瓣api的希望、自己写出了C#版本的接口却不得不面对没有官方人员再去维护的api的事实，对豆瓣评"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E5%A5%87%E8%91%A9%E8%AF%B4.webp"><meta property="article:published_time" content="2020-01-21T04:34:35.000Z"><meta property="article:modified_time" content="2023-12-24T09:00:26.449Z"><meta property="article:author" content="Cath"><meta property="article:tag" content="豆瓣"><meta property="article:tag" content="豆瓣日记"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E5%A5%87%E8%91%A9%E8%AF%B4.webp"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://cath-gh.github.io/2020/01/return-to-douban/"},"headline":"旬回豆瓣","image":["https://cdn.jsdelivr.net/gh/cath-gh/pictures@main/Obsidian/cath-gh.github.io/%E5%A5%87%E8%91%A9%E8%AF%B4.webp"],"datePublished":"2020-01-21T04:34:35.000Z","dateModified":"2023-12-24T09:00:26.449Z","author":{"@type":"Person","name":"Cath"},"publisher":{"@type":"Organization","name":"Cath","logo":{"@type":"ImageObject","url":"https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/logo_c.webp"}},"description":"回归豆瓣 其实从来也没有类开过豆瓣，从最初注册的2008年算起恰好一旬，当我想要开始写文字的时候最先想到的，还是豆瓣。对这里的感情一直在变化，出于记录个人读书观影听音乐点滴的目的，我非常幸运和感谢有这么一个持续十余年运营的地方。豆瓣几经改版，产品线也有过很多尝试，对阿尔法城的期待和最后下线时的怀念，对豆瓣api的希望、自己写出了C#版本的接口却不得不面对没有官方人员再去维护的api的事实，对豆瓣评"}</script><link rel="canonical" href="https://cath-gh.github.io/2020/01/return-to-douban/"><link rel="icon" href="https://cdn.jsdelivr.net/gh/cath-gh/pictures@main//Obsidian/cath-gh.github.io/favicon_c.webp"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><script>var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
             hm.src = "//hm.baidu.com/hm.js?6c66d60a7772331394272798b1dd4ce9";
@@ -55,7 +146,7 @@
 作者：Cath（来自豆瓣）<br>
 来源：<a target="_blank" rel="noopener" href="https://www.douban.com/note/749706785/">https://www.douban.com/note/749706785/</a></p>
 </blockquote>
-</div><div class="article-licensing box"><div class="licensing-title"><p>旬回豆瓣</p><p><a href="https://cath-gh.github.io/2020/01/return-to-douban/">https://cath-gh.github.io/2020/01/return-to-douban/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Cath</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2020-01-21</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-12-23</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons-nc"></i></a><a class="icons" rel="noopener" target="_blank" title="NoDerivatives" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons-nd"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E8%B1%86%E7%93%A3/">豆瓣</a><a class="link-muted mr-2" rel="tag" href="/tags/%E8%B1%86%E7%93%A3%E6%97%A5%E8%AE%B0/">豆瓣日记</a></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><div class="social-share"></div><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/" alt="支付宝"></span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/01/what-exactly-are-we-looking-at-when-we-read-a-book/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">看书时我们到底在看什么</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2017/06/how-to-view-the-world/"><span class="level-item">怎么看待这世界</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+</div><div class="article-licensing box"><div class="licensing-title"><p>旬回豆瓣</p><p><a href="https://cath-gh.github.io/2020/01/return-to-douban/">https://cath-gh.github.io/2020/01/return-to-douban/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>Cath</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2020-01-21</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-12-24</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons-nc"></i></a><a class="icons" rel="noopener" target="_blank" title="NoDerivatives" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"><i class="icon fab fa-creative-commons-nd"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/%E8%B1%86%E7%93%A3/">豆瓣</a><a class="link-muted mr-2" rel="tag" href="/tags/%E8%B1%86%E7%93%A3%E6%97%A5%E8%AE%B0/">豆瓣日记</a></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><div class="social-share"></div><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">喜欢这篇文章？打赏一下作者吧</h3><div class="buttons is-centered"><a class="button donate" data-type="alipay"><span class="icon is-small"><i class="fab fa-alipay"></i></span><span>支付宝</span><span class="qrcode"><img src="/" alt="支付宝"></span></a><a class="button donate" data-type="wechat"><span class="icon is-small"><i class="fab fa-weixin"></i></span><span>微信</span><span class="qrcode"><img src="/" alt="微信"></span></a></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2020/01/what-exactly-are-we-looking-at-when-we-read-a-book/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">看书时我们到底在看什么</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2017/06/how-to-view-the-world/"><span class="level-item">怎么看待这世界</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">评论</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
             this.page.url = 'https://cath-gh.github.io/2020/01/return-to-douban/';
             this.page.identifier = '2020/01/return-to-douban/';
         };
