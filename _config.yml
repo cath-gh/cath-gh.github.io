@@ -84,3 +84,20 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+douban:
+  id: 2896809
+  builtin: false
+  item_per_page: 10
+  meta_max_line: 4
+  customize_layout: page
+  book:
+    path: books/index.html
+    title: '阅读'
+    quote: '阅读'
+    option:
+  movie:
+    path: movies/index.html
+    title: '电影'
+    quote: '电影'
+    option:
+  timeout: 10000 
