@@ -6,4 +6,5 @@ node_modules/
 public/
 .deploy*/
 .github/dependabot.yml
-source/static
+static/
+.obsidian/plugins/obsidian-image-auto-upload-plugin/data.json

@@ -6,8 +6,9 @@ author: Cath
 language: zh-CN
 timezone: 'Asia/Shanghai'
 url: https://cath-gh.github.io/
-permalink: ':year/:month/:title/'
-permalink_defaults: null
+permalink: ':year/:month/:urlname/'
+permalink_defaults: 
+  urlname: index
 pretty_urls:
   trailing_index: true
   trailing_html: true
