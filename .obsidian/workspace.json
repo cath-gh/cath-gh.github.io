@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"categories\"] 电影",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,19 +182,19 @@
   },
   "active": "d261661879440130",
   "lastOpenFiles": [
+    "source/_posts/豆瓣日记/20200126 - 看书时我们到底在看什么.md",
+    "static/post.md",
+    "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
     "source/_posts/cath.dnip.net/20121217 - 不要劝人向恶.md",
     "source/_posts/sina/20160121 - 《黑镜》第二季-21世纪的哲学系寓言小故事.md",
     "source/_posts/豆瓣日记/20200220 - 从《希特勒回来了》想到的.md",
     "source/_posts/豆瓣日记/20200224 - 关于豆瓣评分.md",
     "source/_posts/豆瓣日记/20200314 - 写在重刷魔戒三部曲之后.md",
     "source/_posts/gh/20221022 - 一个字，过瘾.md",
-    "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
-    "source/_posts/豆瓣日记/20200126 - 看书时我们到底在看什么.md",
     "source/_posts/豆瓣日记/20200225 - 《人生有何意义》书摘记录.md",
     "source/_posts/豆瓣日记/20200311 - 《海龟交易法则》书摘记录.md",
     "source/_posts/豆瓣日记/20200314 - 《费马大定理》书摘记录.md",
     "source/_posts/gh/20231220 - 从想成为钟跃民到远观钟跃民.md",
-    "static/post.md",
     "static/post/20231220 - 从想成为钟跃民到远观钟跃民/血色浪漫.jpg",
     "static/post/20231220 - 从想成为钟跃民到远观钟跃民/血色浪漫.jpg.crdownload",
     "static/post/20231220 - 从想成为钟跃民到远观钟跃民",
