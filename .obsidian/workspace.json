@@ -29,24 +29,12 @@
               "state": {
                 "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3818dc77d0c8b62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/gh/20231220 - 从想成为钟跃民到远观钟跃民.md",
-                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"categories\"] 电影",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/gh/20231220 - 从想成为钟跃民到远观钟跃民.md",
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/gh/20231220 - 从想成为钟跃民到远观钟跃民.md",
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/gh/20231220 - 从想成为钟跃民到远观钟跃民.md"
+                "file": "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md"
               }
             }
           },
@@ -175,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -192,36 +181,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f3818dc77d0c8b62",
+  "active": "d261661879440130",
   "lastOpenFiles": [
+    "source/_posts/cath.dnip.net/20121217 - 不要劝人向恶.md",
+    "source/_posts/sina/20160121 - 《黑镜》第二季-21世纪的哲学系寓言小故事.md",
+    "source/_posts/豆瓣日记/20200220 - 从《希特勒回来了》想到的.md",
+    "source/_posts/豆瓣日记/20200224 - 关于豆瓣评分.md",
+    "source/_posts/豆瓣日记/20200314 - 写在重刷魔戒三部曲之后.md",
+    "source/_posts/gh/20221022 - 一个字，过瘾.md",
     "source/_posts/gh/20231029 - 《过得刚好》书摘记录.md",
-    "static/post.md",
+    "source/_posts/豆瓣日记/20200126 - 看书时我们到底在看什么.md",
+    "source/_posts/豆瓣日记/20200225 - 《人生有何意义》书摘记录.md",
+    "source/_posts/豆瓣日记/20200311 - 《海龟交易法则》书摘记录.md",
+    "source/_posts/豆瓣日记/20200314 - 《费马大定理》书摘记录.md",
     "source/_posts/gh/20231220 - 从想成为钟跃民到远观钟跃民.md",
+    "static/post.md",
     "static/post/20231220 - 从想成为钟跃民到远观钟跃民/血色浪漫.jpg",
     "static/post/20231220 - 从想成为钟跃民到远观钟跃民/血色浪漫.jpg.crdownload",
     "static/post/20231220 - 从想成为钟跃民到远观钟跃民",
     "static/post/未命名",
     "scaffolds/tp_post.md",
-    "source/_posts/豆瓣日记/20200314 - 《费马大定理》书摘记录.md",
-    "source/_posts/豆瓣日记/20200311 - 《海龟交易法则》书摘记录.md",
     "2023-10-29.md",
     "source/_posts/gh/20220925 - 走弯路也是前进的一种方式.md",
-    "source/_posts/gh/20221022 - 一个字，过瘾.md",
     "source/_posts/gh/20220220 - Markdown 参考文档.md",
     "source/_posts/gh/20220204 - 怀念那些有空鼓捣的日子.md",
     "source/_posts/gh/20220202 - hello-world.md",
     "source/_posts/豆瓣日记/20200121 - 旬回豆瓣.md",
-    "source/_posts/豆瓣日记/20200126 - 看书时我们到底在看什么.md",
     "source/_posts/豆瓣日记/20200204 - 在vscode中使用pipenv环境运行jupyter.md",
-    "source/_posts/豆瓣日记/20200220 - 从《希特勒回来了》想到的.md",
-    "source/_posts/豆瓣日记/20200224 - 关于豆瓣评分.md",
-    "source/_posts/豆瓣日记/20200225 - 《人生有何意义》书摘记录.md",
-    "source/_posts/豆瓣日记/20200314 - 写在重刷魔戒三部曲之后.md",
     "source/_posts/cath.dnip.net/20130126 - doubanOAuth更新.md",
     "source/_posts/cath.dnip.net/20130120 - 豆瓣SDK doubanOauth.md",
     "source/_posts/cath.dnip.net/20130119 - 对于豆瓣API的一些看法.md",
     "source/_posts/cath.dnip.net/20121217 - 梦魇.md",
-    "source/_posts/cath.dnip.net/20121217 - 不要劝人向恶.md",
     "source/_posts/cath.dnip.net/20121217 - 123.md",
     "static/post/20231029 - 《过得刚好》书摘记录/《人物》独家对话郭德纲.webp",
     "static/post/20231029 - 《过得刚好》书摘记录/v2-5f4ef45188bc36a73c1d69051abf56e2_720w.webp.crdownload",
