@@ -46,6 +46,8 @@ navbar:
         文章: /archives
         分类: /categories
         标签: /tags
+        电影: /movies
+        阅读: /books
         关于: /about
 footer:
     links:
