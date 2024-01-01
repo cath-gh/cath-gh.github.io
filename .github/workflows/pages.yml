@@ -20,16 +20,12 @@ jobs:
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-      - name: Install Hexo
-      run: |
-        export TZ='Asia/Shanghai'
-        npm install hexo-cli -g
-        hexo -v
       - name: Install Dependencies
         run: npm install
       - name: Build
         # run: npm run build
         run: |
+          npm install hexo-cli -g
           hexo clean
           hexo douban
           hexo generate
